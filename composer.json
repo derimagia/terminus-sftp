@@ -1,0 +1,27 @@
+{
+  "name": "derimagia/terminus-sftp",
+  "description": "Very Simple Terminus SFTP Plugin. For more options, see terminus-filer.",
+  "homepage": "https://github.com/derimagia/terminus-sftp",
+  "authors": [
+    {
+      "name": "Dave Wikoff",
+      "email" : "dwikoff@mindgrub.com",
+      "role": "Developer"
+    }
+  ],
+  "license": "MIT",
+  "type": "terminus-plugin",
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pantheon\\TerminusSFTP\\": "src"
+    }
+  },
+  "extra": {
+    "terminus": {
+      "compatible-version": "^1"
+    }
+  }
+}
